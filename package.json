@@ -1,0 +1,20 @@
+{
+  "name": "karma-webpack-wc-bug",
+  "version": "0.0.0",
+  "description": "showing a bug in karma-webpack using webcomponents",
+  "author": "karma-webpack-wc-bug",
+  "license": "MIT",
+  "dependencies": {
+    "lit-html": "^0.14.0"
+  },
+  "scripts": {
+    "lint": "npm run lint:eslint",
+    "lint:eslint": "eslint --ext .js,.html .",
+    "test": "karma start"
+  },
+  "devDependencies": {
+    "@open-wc/eslint-config": "^0.3.0",
+    "@open-wc/testing": "^0.6.0",
+    "@open-wc/testing-karma": "^0.2.0"
+  }
+}
