@@ -1,3 +1,3 @@
 import './foo-one.js';
 
-window.customElements.define('karma-webpack-wc-bug', class extends HTMLElement {});
+window.customElements.define('foo-two', class extends HTMLElement {});
