@@ -11,5 +11,12 @@ module.exports = (config) => {
       // allows running single tests with the --grep flag
       config.grep ? config.grep : 'test/**/*.test.js',
     ],
+
+    frameworks: ['mocha', 'webpack'],
+
+    preprocessors: {
+      '**/*.test.js': ['sourcemap'],
+      '**/*.spec.js': ['sourcemap'],
+    },
   });
 };

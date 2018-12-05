@@ -10,7 +10,8 @@
   "scripts": {
     "lint": "npm run lint:eslint",
     "lint:eslint": "eslint --ext .js,.html .",
-    "test": "karma start"
+    "test": "karma start",
+    "test:watch": "karma start --auto-watch=true --single-run=false"
   },
   "devDependencies": {
     "@open-wc/eslint-config": "^0.3.0",
