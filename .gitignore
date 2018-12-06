@@ -6,7 +6,8 @@
 .DS_Store
 
 ## npm
-/node_modules/
+/node_modules/*
+!/node_modules/karma-webpack
 /npm-debug.log
 
 ## testing
