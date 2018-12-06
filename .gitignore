@@ -10,6 +10,8 @@
 !/node_modules/karma-webpack
 /npm-debug.log
 
+.karma-cache
+
 ## testing
 /coverage/
 
