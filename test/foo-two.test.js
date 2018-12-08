@@ -4,7 +4,7 @@ import {
 
 import '../foo-two.js';
 
-describe('<karma-webpack-wc-bug>', () => {
+describe('foo-two', () => {
   it('has foo as two', async () => {
     const foo = document.createElement('foo-two');
     expect(foo.foo).to.equal('two');
