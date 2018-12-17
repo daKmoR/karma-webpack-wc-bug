@@ -15,8 +15,7 @@
   },
   "devDependencies": {
     "@open-wc/eslint-config": "^0.3.0",
-    "@open-wc/testing": "^0.6.0",
-    "@open-wc/testing-karma": "^0.2.0",
-    "karma-webpack": "^5.0.0-alpha.0"
+    "@open-wc/testing": "^0.7.0",
+    "@open-wc/testing-karma": "^0.3.0"
   }
 }
